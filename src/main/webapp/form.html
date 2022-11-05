@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form_22000593</title>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<h2>학생등록 페이지</h2>
+
+<form action="form_ok.jsp" method="post">
+
+    이름 :
+    <input type="text" name="name">
+    <br><br>
+
+    학번 :
+    <input type="text" name="stu_num">
+    <br><br>
+
+    성별 :<br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">여</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">남</label>
+    <br><br>
+
+    <label for="major1">1전공 :</label>
+    <select id="major1" name="major1">
+        <option value="computer">컴퓨터공학</option>
+        <option value="electronic">전자공학</option>
+        <option value="etc">기타</option>
+    </select>
+    <br><br>
+
+    <label for="major2">2전공 :</label>
+    <select id="major2" name="major2">
+        <option value="computer">컴퓨터공학</option>
+        <option value="electronic">전자공학</option>
+        <option value="etc">기타</option>
+    </select>
+    <br><br>
+
+    RC :<br>
+    <input type="checkbox" id="rc1" name="rc" value="K RC">
+    <label for="rc1"> 카이퍼</label><br>
+    <input type="checkbox" id="rc2" name="rc" value="T RC">
+    <label for="rc2"> 토레이</label><br>
+    <input type="checkbox" id="rc3" name="rc" value="J RC">
+    <label for="rc3"> 장기려</label><br>
+    <input type="checkbox" id="rc4" name="rc" value="S RC">
+    <label for="rc4"> 손양원</label><br>
+    <input type="checkbox" id="rc5" name="rc" value="Y RC">
+    <label for="rc5"> 열송학사</label><br>
+    <input type="checkbox" id="rc6" name="rc" value="KM RC">
+    <label for="rc6"> 카마이클</label>
+    <br><br>
+
+    <label for="birthday">생일 :</label>
+    <input type="date" id="birthday" name="birthday">
+    <br><br>
+
+    <label for="fav_color">좋아하는 색 :</label>
+    <input type="color" id="fav_color" name="fav_color" value="#ff0000">
+    <br><br>
+
+    좋아하는 계절 :<br>
+    <input type="radio" id="spring" name="fav_season" value="Spring">
+    <label for="spring">봄</label><br>
+    <input type="radio" id="summer" name="fav_season" value="Summer">
+    <label for="summer">여름</label><br>
+    <input type="radio" id="autumn" name="fav_season" value="autumn">
+    <label for="autumn">가을</label><br>
+    <input type="radio" id="winter" name="fav_season" value="Winter">
+    <label for="winter">겨울</label>
+    <br><br>
+
+    하고싶은 말 :<br>
+    <textarea name="message" rows="5" cols="30"></textarea>
+    <br><br>
+
+    <input type="submit">
+
+</form>
+
+</body>
+</html>
